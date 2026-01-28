@@ -57,31 +57,47 @@
 
         <button class="btn primary">Browse Properties</button>
       </div>
+
+      <!-- STATS -->
+      <div class="hero-stats">
+        <div class="hero-stat-item">
+          <div class="stat-icon">👥</div>
+          <h4>50k+ renters</h4>
+          <p>believe in our service</p>
+        </div>
+        <div class="hero-stat-item">
+          <div class="stat-icon">📊</div>
+          <h4>10k+ properties</h4>
+          <p>and house ready for occupancy</p>
+        </div>
+      </div>
     </div>
 
     <!-- RIGHT IMAGE -->
     <div class="hero-right">
-      <img src="images/home.png" alt="House" />
-
-      <!-- FLOATING CARD -->
-      <div class="testimonial-card">
-        <div class="card-profile">
-          <img src="images/profile.svg" alt="Manuel Villa" class="profile-pic"/>
-          <div class="profile-info">
-            <p class="profile-name">Manuel Villa</p>
-            <p class="profile-role">Renter</p>
-            <p class="profile-moved">Moved with <span class="logo-small">Estatery</span></p>
+      <div class="hero-image-container">
+        <img src="images/home.png" alt="House" class="hero-image"/>
+        
+        <!-- FLOATING CARD -->
+        <div class="testimonial-card">
+          <div class="card-profile">
+            <img src="https://i.pravatar.cc/150?img=12" alt="Manuel Villa" class="profile-pic"/>
+            <div class="profile-info">
+              <p class="profile-name">Manuel Villa</p>
+              <p class="profile-role">Renter</p>
+              <p class="profile-moved">Moved with <span class="logo-small">Estatery</span></p>
+            </div>
           </div>
-        </div>
-        <p class="testimonial-text">"I loved how smooth the move was, and finally got the house we wanted."</p>
-        <div class="stats">
-          <div class="stat-item">
-            <span class="stat-value">$1,500</span>
-            <span class="stat-label">Saved up to</span>
-          </div>
-          <div class="stat-item">
-            <span class="stat-value">-24 hrs</span>
-            <span class="stat-label">Process time</span>
+          <p class="testimonial-text">"I loved how smooth the move was, and finally got the house we wanted."</p>
+          <div class="stats">
+            <div class="stat-item">
+              <span class="stat-value">$1,500</span>
+              <span class="stat-label">Saved up to</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value">-24 hrs</span>
+              <span class="stat-label">Process time</span>
+            </div>
           </div>
         </div>
       </div>
@@ -99,24 +115,53 @@
 
   </section>
 
-  <!-- STATS SECTION -->
-  <section class="stats-section">
-    <div class="stat-box">
-      <div class="stat-icon">👥</div>
-      <h3>50k+ renters</h3>
-      <p>believe in our service</p>
-    </div>
-    <div class="stat-box">
-      <div class="stat-icon">📊</div>
-      <h3>10k+ properties</h3>
-      <p>and house ready for occupancy</p>
-    </div>
-  </section>
-
   <!-- FEATURES SECTION -->
   <section class="features-section">
-
-    <img src="images/Benefit.png" alt="Benefits illustration" class="benefit-image"/>
+    <div class="features-left">
+      <h2>The new way to find your new home</h2>
+      <p>Find your dream place to live in with more than 10k+ properties listed.</p>
+      <button class="btn primary">Browse Properties</button>
+      <div class="home-illustration">
+        <svg viewBox="0 0 200 180" xmlns="http://www.w3.org/2000/svg">
+          <!-- House body -->
+          <rect x="40" y="70" width="120" height="80" fill="#6c63ff" rx="8"/>
+          <!-- Roof -->
+          <polygon points="40,70 100,20 160,70" fill="#5651cc"/>
+          <!-- Door -->
+          <rect x="85" y="110" width="30" height="40" fill="#ddd5ff" rx="4"/>
+          <!-- Door handle -->
+          <circle cx="110" cy="130" r="2" fill="#6c63ff"/>
+          <!-- Window 1 -->
+          <rect x="55" y="85" width="20" height="20" fill="#ddd5ff" rx="2"/>
+          <!-- Window 2 -->
+          <rect x="125" y="85" width="20" height="20" fill="#ddd5ff" rx="2"/>
+          <!-- Porch -->
+          <rect x="70" y="145" width="60" height="5" fill="#5651cc" rx="2"/>
+        </svg>
+      </div>
+    </div>
+    <div class="features-container">
+      <div class="feature-item">
+        <div class="feature-icon">✓</div>
+        <h3>Property Insurance</h3>
+        <p>We offer our customer property protection of liability coverage and insurance for their better life.</p>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">💰</div>
+        <h3>Best Price</h3>
+        <p>Not sure what you should be charging for your property? No need to worry, let us do the numbers for you.</p>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">%</div>
+        <h3>Lowest Commission</h3>
+        <p>You no longer have to negotiate commissions and haggle with other agents it only cost 2%!</p>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">🔒</div>
+        <h3>Overall Control</h3>
+        <p>Get a virtual tour, and schedule visits before you rent or buy any properties. You get overall control.</p>
+      </div>
+    </div>
   </section>
 
   <!-- PROPERTY CARDS SECTION -->
@@ -230,6 +275,47 @@
     </div>
     <div class="property-footer">
       <button class="btn primary">Browse more properties</button>
+    </div>
+  </section>
+
+  <!-- BENEFITS SECTION -->
+  <section class="benefits-section">
+    <div class="benefits-header">
+      <h2>We make it easy for <span class="highlight">tenants</span> and <span class="highlight">landlords</span>.</h2>
+      <p>Whether it's selling your current home, getting financing, or buying a new home, we make it easy and efficient. The best part? you'll save a bunch of money and time with our services.</p>
+    </div>
+
+    <div class="benefits-cards">
+      <div class="benefit-card dark-card">
+        <div class="benefit-icon">🎬</div>
+        <h3>Virtual home tour</h3>
+        <p>You can communicate directly with landlords and we provide you with virtual tour before you buy or rent the property.</p>
+      </div>
+      <div class="benefit-card light-card">
+        <div class="benefit-icon">🏠</div>
+        <h3>Find the best deal</h3>
+        <p>Browse thousands of properties, save your favorites and set up search alerts so you don't miss the best home deal!</p>
+      </div>
+      <div class="benefit-card purple-card">
+        <div class="benefit-icon">📋</div>
+        <h3>Get Financing</h3>
+        <p>Find the best financing options to make your dream home purchase easier and more affordable.</p>
+      </div>
+    </div>
+
+    <div class="benefits-stats">
+      <div class="benefit-stat">
+        <div class="stat-number">7.4%</div>
+        <div class="stat-label">Property Return Rate</div>
+      </div>
+      <div class="benefit-stat">
+        <div class="stat-number">3,856</div>
+        <div class="stat-label">Property in Sell & Rent</div>
+      </div>
+      <div class="benefit-stat">
+        <div class="stat-number">2,540</div>
+        <div class="stat-label">Daily Completed Transactions</div>
+      </div>
     </div>
   </section>
 
