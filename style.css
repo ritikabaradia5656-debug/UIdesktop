@@ -757,15 +757,18 @@ body {
 
 .home-illustration {
   margin-top: 40px;
-  width: 100%;
-  max-width: 300px;
-  height: 250px;
+  width: 416px;
+  height: 500px;
   background: linear-gradient(135deg, #f3f0ff 0%, #ede8ff 100%);
   border-radius: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 20px;
+  position: relative;
+  top: 100px;
+  left: 160px;
+  opacity: 1;
 }
 
 .home-illustration svg {
